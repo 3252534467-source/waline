@@ -24,8 +24,14 @@
     "server:vercel": "vercel dev ./example --listen 9090",
     "test": "vitest"
   },
+ 
   "nano-staged": {
     "**/*": "oxfmt --no-error-on-unmatched-pattern",
     "*.{js,ts,vue}": "oxlint --fix --type-aware --type-check --report-unused-disable-directives",
     "*.md": "markdownlint-cli2 --fix"
   },
+ 
+  "apidoc": {
+    "title": "Waline API Documentation"
+  }
+} 
