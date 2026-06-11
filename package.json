@@ -1,4 +1,4 @@
-"apidoc":{
+{
   "name": "waline-root",
   "private": true,
   "type": "module",
